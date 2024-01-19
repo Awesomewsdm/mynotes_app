@@ -1,9 +1,11 @@
+import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 import 'package:mynotes/constants/barrels.dart';
 import 'package:mynotes/utilities/generics/get_arguments.dart';
 
+@RoutePage()
 class CreateUpdateNoteView extends StatefulWidget {
-  const CreateUpdateNoteView({Key? key}) : super(key: key);
+  const CreateUpdateNoteView({super.key});
 
   @override
   State<CreateUpdateNoteView> createState() => _CreateUpdateNoteViewState();

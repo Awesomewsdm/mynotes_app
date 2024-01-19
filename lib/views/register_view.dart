@@ -1,9 +1,10 @@
+import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mynotes/constants/barrels.dart';
 
+@RoutePage()
 class RegisterView extends StatefulWidget {
-  const RegisterView({Key? key}) : super(key: key);
+  const RegisterView({super.key});
 
   @override
   State<RegisterView> createState() => _RegisterViewState();
@@ -89,7 +90,7 @@ class _RegisterViewState extends State<RegisterView> {
                   child: Column(
                     children: [
                       TextButton(
-                        onPressed: () async {
+                        onPressed: () {
                           final email = _email.text;
                           final password = _password.text;
                           context.read<AuthBloc>().add(

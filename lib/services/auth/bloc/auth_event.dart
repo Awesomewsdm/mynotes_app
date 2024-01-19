@@ -9,6 +9,11 @@ class AuthEventInitialize extends AuthEvent {
   const AuthEventInitialize();
 }
 
+class AuthEventStatusChanged extends AuthEvent {
+  final bool isLoggedIn;
+  const AuthEventStatusChanged(this.isLoggedIn);
+}
+
 class AuthEventSendEmailVerification extends AuthEvent {
   const AuthEventSendEmailVerification();
 }

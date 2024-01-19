@@ -93,7 +93,11 @@ class _NotesViewState extends State<NotesView> {
                   },
                 );
               } else {
-                return const CircularProgressIndicator();
+                return const Center(
+                    child: Text(
+                  "Sorry, you don't have any notes. Your notes will appear here when you create them",
+                  textAlign: TextAlign.center,
+                ));
               }
             default:
               return const CircularProgressIndicator();

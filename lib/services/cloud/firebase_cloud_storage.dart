@@ -4,7 +4,7 @@ import 'package:mynotes/services/cloud/cloud_storage_constants.dart';
 import 'package:mynotes/services/cloud/cloud_storage_exceptions.dart';
 
 class FirebaseCloudStorage {
-  final notes = FirebaseFirestore.instance.collection('notes');
+  final notes = FirebaseFirestore.instance.collection("notes");
 
   Future<void> deleteNote({required String documentId}) async {
     try {

@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "722865947054",
-    "project_id": "service-masters-d5bc8",
-    "storage_bucket": "service-masters-d5bc8.appspot.com"
+    "project_number": "915721861891",
+    "project_id": "mynotes-app-f8e90",
+    "storage_bucket": "mynotes-app-f8e90.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:722865947054:android:3408954553ed9c13cd083f",
+        "mobilesdk_app_id": "1:915721861891:android:4d2e5a0321e3d9822c0736",
         "android_client_info": {
           "package_name": "com.example.mynotes_app"
         }
@@ -15,7 +15,26 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyB5Md6KvDPim91477vSqaHjVQ_MyFwjrkQ"
+          "current_key": "AIzaSyAr8JSZCDU71RAMFP-aZL4kEyoctlnjI-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915721861891:android:b7c47696ac72a4262c0736",
+        "android_client_info": {
+          "package_name": "se.pixolity.mynotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr8JSZCDU71RAMFP-aZL4kEyoctlnjI-w"
         }
       ],
       "services": {

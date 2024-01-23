@@ -15,3 +15,4 @@ export 'package:mynotes/utilities/dialogs/delete_dialog.dart';
 export 'package:mynotes/services/auth/auth_provider.dart';
 export 'package:mynotes/services/auth/auth_user.dart';
 export 'package:mynotes/services/auth/firebase_auth_provider.dart';
+export 'package:flutter/widgets.dart';

@@ -1,4 +1,3 @@
-import 'package:flutter/widgets.dart';
 import 'package:mynotes/constants/barrels.dart';
 
 class AuthBloc extends Bloc<AuthEvent, AuthState> {

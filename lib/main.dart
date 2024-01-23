@@ -31,7 +31,7 @@ void main() async {
         primarySwatch: Colors.blue,
       ),
       home: BlocProvider<AuthBloc>(
-        create: (context) => AuthBloc(FirebaseAuthProvider()),
+        create: (context) => AuthBloc(FirebaseAuthProvider(), context),
         child: const HomePage(),
       ),
       routes: {
